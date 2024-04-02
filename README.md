@@ -23,7 +23,7 @@ The CPU Scheduling Algorithm Visualizer is a web-based tool that allows users to
 
 <br>
 
-### Live: https://chirag-aggarwal-7138.github.io/CPU-SCHEDULING-VISUALISER/
+### Live: https://agreeable-moss-01c72060f.5.azurestaticapps.net
 
 ## Tech Stack
 - HTML
@@ -64,7 +64,7 @@ SRTF is a pre-emptive algorithm. At the arrival of every process, the short term
 
 ## Installation
 
-    Clone the repository: git clone https://agreeable-moss-01c72060f.5.azurestaticapps.net
+    Clone the repository: git clone https://github.com/chirag-aggarwal-7138/CPU-SCHEDULING-VISUALISER
     Navigate to the project directory: cd cpu-scheduling-visualizer
     Open index.html in your preferred web browser.
 
