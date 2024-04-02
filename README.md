@@ -64,7 +64,7 @@ SRTF is a pre-emptive algorithm. At the arrival of every process, the short term
 
 ## Installation
 
-    Clone the repository: git clone https://github.com/your-username/cpu-scheduling-visualizer.git
+    Clone the repository: git clone https://agreeable-moss-01c72060f.5.azurestaticapps.net
     Navigate to the project directory: cd cpu-scheduling-visualizer
     Open index.html in your preferred web browser.
 
