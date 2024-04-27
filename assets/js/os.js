@@ -213,6 +213,7 @@ function calculate() {
     document.getElementById("cover").style.width = "100%";
     document.getElementById("processr").innerHTML = "";
     document.getElementById("timer").innerHTML = "";
+    
     //SJF
     if (document.getElementById("SJF").checked) {
         let time = 0;

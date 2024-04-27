@@ -62,21 +62,18 @@
                 <strong>Enter Arrival Time:</strong>
                 <span><input type="number" min="0" id="AT" placeholder="Enter Arrival Time" style="height: 30px;
                     background-color: white; color: black; border: 2px solid
-                    black;  margin-left: 450px;" class="InputFiled"></span>
+                    black;  margin-left: 255%;" class="InputFiled"></span>
 
                 <br><br>
                 <strong>Enter Burst Time: &nbsp</strong>
                 <span><input type="number" min="0" id="BT" placeholder="Enter Burst Time" style="height: 30px;
                     background-color: white; color: black; border: 2px solid
-                    black;margin-left: 450px;" class="InputFiled" ></span>
+                    black;margin-left: 255%;" class="InputFiled" ></span>
 
                 <br><br>
-                <span id="timequanta" style="left: 0; display: none;">
-            <strong id="timetext" style="margin-left: 10px">Enter Time Quanta: &nbsp</strong>
-            <span><input type="number" min="0" id="TQ" placeholder="Enter Time Quanta" style="height: 30px;
-                         background-color: white;
-                        color: black; border: 2px solid black;" class="InputFiled"></span>
-                </span>
+                <strong>Enter Time Quanta (For RR): &nbsp</strong>
+                <span><input type="number" min="0" id="TQ" placeholder="Enter Time Quanta" style="height: 30px;
+                         background-color: white; color: black; border: 2px solid black; margin-left: 300%;" class="InputFiled"></span>
             </div>
             <br><br>
         </div>
@@ -109,8 +106,7 @@
 
     <div class="btnGang">
         <button type="button" id="add" class="btn btn-primary" onclick="addRow()">Add Task</button>
-        <button type="button" id="delete" class="btn btn-danger" onclick="deleteRow()">Delete Task
-</button>
+        <button type="button" id="delete" class="btn btn-danger" onclick="deleteRow()">Delete Task</button>
         <button type="button" class="btn btn-success" id="execute" onclick="calculate()">Visualized</button>
         <div class="avg-text" id="average" style="color:green">Avg. Completion Time = <input class="ans-avg" type="text" id="averagebox1" placeholder="0" readonly style="border-radius: 10px;"></div>
         <br><br>
